@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {
     setDefaultMaterial,
-} from "../libs/util/util.js";
+} from "./libs/util/util.js";
 import {
     createGroundPlaneXZ,
     makeEdges,

@@ -1,14 +1,14 @@
 import * as THREE from 'three';
 import {
     setDefaultMaterial,
-} from "../libs/util/util.js";
+} from "./libs/util/util.js";
 import {checkCollisions,
 } from './check.js';
-import { CSG } from '../libs/other/CSGMesh.js'
+import { CSG } from './libs/other/CSGMesh.js'
 import {
     loadGLTFFile,
 } from './import_object.js'
-import { CompressedTextureLoader } from '../build/three.module.js';
+
 // CREATE PLANE
 export function createGroundPlaneXZ(p, widthSegments = 10, heightSegments = 10, gcolor = null) {
     //cif (!gcolor) gcolor = "rgb(210,180,140)";

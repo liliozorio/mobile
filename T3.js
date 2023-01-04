@@ -1,9 +1,8 @@
 import * as THREE from 'three';
-import KeyboardState from '../libs/util/KeyboardState.js'
 import {
     initRenderer,
     setDefaultMaterial,
-} from "../libs/util/util.js";
+} from "./libs/util/util.js";
 import {
     checkCollisions,
     checkOpenDoorRoom,
@@ -38,7 +37,6 @@ import {
 } from './movimentation.js';
 
 import { trilhaSonora, effects, playSound } from './soundEffects.js';
-import { Buttons } from "../libs/other/buttons.js";
 
 let fwdValue = 0;
 let bkdValue = 0;

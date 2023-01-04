@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import {
     setDefaultMaterial,
     radiansToDegrees
-} from "../libs/util/util.js";
+} from "./libs/util/util.js";
 import {
     checkOpenDoorRoom,
     checkCollisions, 
